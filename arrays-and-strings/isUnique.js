@@ -1,3 +1,9 @@
+/*
+  Check if input exists and is of correct type
+  Create a new set with values from input
+  Check if the size (length) of the set is equal to original array
+*/
+
 const isUnique = (s) => {
   if (!s || typeof s !== 'string') return false;
 
@@ -5,6 +11,11 @@ const isUnique = (s) => {
 
   return uniqueChars.size === s.length;
 };
+
+/*
+  Populate a hash map with the frequency of letters from input string
+  Iterate over string and find first property whos value is greater than one
+*/
 
 const isUnique = (s) => {
   if (!s || typeof s !== 'string') return false;
@@ -23,6 +34,12 @@ const isUnique = (s) => {
 
   return true;
 };
+
+/*
+  Sort input string
+  Duplicate values will apear next to each other
+  Iterate over array and check id the current letter is equal to next letter
+*/
 
 const isUnique = (s) => {
   if (!s || typeof s !== 'string') return false;
